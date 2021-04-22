@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* -----tags----- */
+
+body {
+    padding: 20px 275px 15px 275px;
+}
+
+header {
+    height: 100px;
+    background: cyan;
+}
+
+main {
+    height: 500px;
+    background: rgb(0, 255, 128);
+}
+
+footer {
+    height: 25px;
+    background: rgb(183, 26, 255);
+    margin-top: 15px;
+}
+
+/* -----classes----- */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section-title {
+    height: 50px;
+    background: rgb(187, 255, 0);
+    margin-bottom: 15px;
+}
+
+.secondary-article {
+    width: 60%;
+    height: 400px;
+    margin: 0 20px 0 20px;
+}
+
+.side-article {
+    width: 18.5%;
+    height: 400px;
+
+}
+
+.content {
+    background: rgb(149, 147, 147);
+    height: 150px;
+}
+
+/* -----id's----- */
